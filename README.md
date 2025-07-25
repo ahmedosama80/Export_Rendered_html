@@ -11,7 +11,7 @@ This script uses Playwright for Python to load a webpage in a headless Chromium 
   Useful for archiving, scraping, or offline analysis of dynamic websites
 
 📦 Example usage:
-  save_rendered_html("https://www.google.com/", "output/saved_google.html")
+  export_rendered_html("https://www.google.com/", "output/saved_google.html")
 
   
 📁 Output: HTML file saved with all client-side rendering included.
